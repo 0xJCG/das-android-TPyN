@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">TPyN</string>
+
+    <string name="notes_section">Notas</string>
+    <string name="note_section">Detalles de la nota</string>
+    <string name="tasks_section">Tareas</string>
+    <string name="task_section">Detalles de la tarea</string>
+
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+
+    <string name="new_note">Nueva nota</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="delete_note">Borrar nota</string>
+    <string name="new_task">New tarea</string>
+    <string name="edit_task">Editar tarea</string>
+    <string name="delete_task">Borrar tarea</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="save">Guardar</string>
+
+    <string name="title">Título</string>
+    <string name="content">Contenido</string>
+    <string name="date">Fecha</string>
+    <string name="where">Lugar</string>
+    <string name="add">Añadir</string>
+    <string name="location">Localización</string>
+    <string name="get_location">Obtener localización</string>
+    <string name="photo">Foto</string>
+    <string name="take_photo">Sacar foto</string>
+    <string name="pick_date">Seleccione una fecha</string>
+
+    <!-- TOASTS, ENTRIES & NOTIFICATIONS -->
+    <string name="need_pick_date">Es necesario seleccionar una fecha.</string>
+    <string name="note_added">Nota correctamente añadida.</string>
+    <string name="note_updated">Nota correctamente actualizada.</string>
+    <string name="note_deleted">Nota correctamente borrada.</string>
+    <string name="task_added">Tarea correctamente añadida.</string>
+    <string name="task_updated">Tarea correctamente actualizada.</string>
+    <string name="task_deleted">Tarea correctamente borrada.</string>
+    <string name="fill_fields">Es necesario rellenar todos los datos.</string>
+    <string name="discard_note">Descartar la nota</string>
+    <string name="discard_note_text">¿Deseas descartar la nota?</string>
+    <string name="discard_task">Descartar la tarea</string>
+    <string name="discard_task_text">¿Deseas descartar la tarea?</string>
+    <string name="new_notification">Nueva notificación</string>
+    <string name="notification_title">Tareas pendientes</string>
+    <string name="notification_content">Existen tareas pendientes para hoy</string>
+    <string name="position_stored">Posición guardada.</string>
+    <string name="position_not_stored">No hay señal GPS.</string>
+    <string name="date_stored">Fecha guardada.</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_note">Nueva nota</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_new_task">Nueva tarea</string>
+
+    <!-- New app version -->
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Vuelva a introducir la contraseña</string>
+    <string name="appwidget_text">CARGANDO</string>
+    <string name="configure">Configurar</string>
+    <string name="add_widget">Añadir widget</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="title_activity_signin">Registrarme</string>
+    <string name="title_activity_singin">Registrarme</string> <!-- my fault... -->
+    <string name="text_size">Texto por defecto del widget</string>
+    <string name="text_color">Color del texto del widget</string>
+    <string name="widget_size">Color del título "TPyN" del widget</string>
+    <string name="widget_back_color">Tamaño del título "TPyN" del widget</string>
+
+    <string name="logged">¡Estás conectado a TPyN!</string>
+    <string name="not_logged">Usuario o contraseña incorrectos.</string>
+    <string name="signed">¡Te has registrado y conectado a TPyN!</string>
+    <string name="not_signed">El usuario escogido ya está en uso.</string>
+    <string name="input_empty">No puede haber entradas sin rellenar.</string>
+    <string name="pass_match">Las contraseñas no coinciden.</string>
+
+    <string name="logout_section">Desconectar</string>
+    <string name="say_something">¡Di algo!</string>
+    <string name="no_vr">Reconocimiento de voz no encontrado.</string>
+    <string name="pending_tasks">Tareas pendientes para hoy: </string>
+</resources>

@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin" android:background="#09C" android:id="@+id/pending_task_widget">
+
+    <TextView android:id="@+id/appwidget_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" android:text="@string/appwidget_text"
+        android:textColor="#ffffff" android:textSize="12sp"
+        android:layout_margin="8dp" android:contentDescription="@string/appwidget_text"
+        android:background="#09C"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TPyN"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/appwidget_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="10sp"
+        android:textColor="#ff000000" />
+
+</RelativeLayout>

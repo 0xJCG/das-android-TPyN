@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewNewNote"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.das.jcastro.tpyn.NewNoteActivity"
+        android:nestedScrollingEnabled="false">
+
+        <TextView android:text="@string/title" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noteTitleDetails" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editNoteTitle"
+            android:layout_below="@+id/noteTitleDetails"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content"
+            android:id="@+id/NoteContent"
+            android:layout_below="@+id/editNoteTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editNoteContent"
+            android:layout_below="@+id/NoteContent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/editNoteTitle"
+            android:layout_alignEnd="@+id/editNoteTitle" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_location"
+            android:id="@+id/buttonLocation"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/noteLocationDetails"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:id="@+id/noteLocationDetails"
+            android:layout_below="@+id/editNoteContent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/buttonLocation"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp"
+            android:layout_alignRight="@+id/editNoteContent"
+            android:layout_alignEnd="@+id/editNoteContent"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take_photo"
+            android:id="@+id/buttonPhoto"
+            android:layout_alignBottom="@+id/buttonLocation"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photo"
+            android:id="@+id/textView"
+            android:layout_above="@+id/buttonLocation"
+            android:layout_alignLeft="@+id/buttonPhoto"
+            android:layout_alignStart="@+id/buttonPhoto" />
+
+    </RelativeLayout>
+
+</ScrollView>

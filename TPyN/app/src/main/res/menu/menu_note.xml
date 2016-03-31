@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".NoteFragment">
+    <item android:id="@+id/new_note" android:title="@string/new_note"
+        android:icon="@android:drawable/ic_menu_add" app:showAsAction="ifRoom" />
+</menu>

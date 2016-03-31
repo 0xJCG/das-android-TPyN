@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".TaskDetailsFragment">
+    <item android:id="@+id/new_task" android:title="@string/new_task"
+        android:icon="@android:drawable/ic_menu_add" app:showAsAction="ifRoom" />
+    <item android:id="@+id/edit_task" android:title="@string/edit_task"
+        android:icon="@android:drawable/ic_menu_edit" app:showAsAction="ifRoom" />
+    <item android:id="@+id/delete_task" android:title="@string/delete_task"
+        android:icon="@android:drawable/ic_menu_delete" app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">TPyN</string>
+
+    <string name="notes_section">Notak</string>
+    <string name="note_section">Nota xehetasunak</string>
+    <string name="tasks_section">Lanak</string>
+    <string name="task_section">Lan xehetasunak</string>
+
+    <string name="navigation_drawer_open">Ireki navigation drawer</string>
+    <string name="navigation_drawer_close">Itxi navigation drawer</string>
+
+    <string name="new_note">Nota berria</string>
+    <string name="edit_note">Nota editatu</string>
+    <string name="delete_note">Nota ezabatu</string>
+    <string name="new_task">Lan berria</string>
+    <string name="edit_task">Lana editatu</string>
+    <string name="delete_task">Lana ezabatu</string>
+
+    <string name="action_settings">Doikuntzak</string>
+    <string name="save">Gorde</string>
+
+    <string name="title">Izenburu</string>
+    <string name="content">Edukia</string>
+    <string name="date">Data</string>
+    <string name="where">Lekua</string>
+    <string name="add">Gehitu</string>
+    <string name="location">Kokalekua</string>
+    <string name="get_location">Kokaleku lortu</string>
+    <string name="photo">Argazki</string>
+    <string name="take_photo">Argazki atera</string>
+    <string name="pick_date">Data aukeratu</string>
+
+    <!-- TOASTS, ENTRIES & NOTIFICATIONS -->
+    <string name="need_pick_date">Data aukeratu behar duzu.</string>
+    <string name="note_added">Nota ondo gehitua.</string>
+    <string name="note_updated">Nota ondo editatua.</string>
+    <string name="note_deleted">Nota ondo ezabatuta.</string>
+    <string name="task_added">Lana ondo gehitua.</string>
+    <string name="task_updated">Lana ondo editatua.</string>
+    <string name="task_deleted">Lana ondo ezabatuta.</string>
+    <string name="fill_fields">Datu guztiak bete behar duzu.</string>
+    <string name="discard_note">Nota baztertu</string>
+    <string name="discard_note_text">Nota baztertu nahi duzu?</string>
+    <string name="discard_task">Lana baztertu</string>
+    <string name="discard_task_text">Lana baztertu nahi duzu?</string>
+    <string name="new_notification">Abisu berria</string>
+    <string name="notification_title">Bukatuko gabe lanak</string>
+    <string name="notification_content">Gaurko lanak bukatuko gabe daude</string>
+    <string name="position_stored">Posizio gehitua.</string>
+    <string name="position_not_stored">GPS seinalerik ez.</string>
+    <string name="date_stored">Data gorde.</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_note">Note berria</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_new_task">Lan berria</string>
+
+    <!-- New app version -->
+    <string name="email">Email</string>
+    <string name="password">Pasahitza</string>
+    <string name="repeat_password">Sartu pasahitza berriro</string>
+    <string name="appwidget_text">KARGATZEN</string>
+    <string name="configure">Prestatu</string>
+    <string name="add_widget">Widget gehitu</string>
+    <string name="title_activity_login">Sartu</string>
+    <string name="title_activity_signin">Erregistratu</string>
+    <string name="title_activity_singin">Erregistratu</string> <!-- my fault... -->
+    <string name="text_size">Widget balio lehenetsia</string>
+    <string name="text_color">Widget balio kolorea</string>
+    <string name="widget_size">Widget titulu kolorea</string>
+    <string name="widget_back_color">Widget titulu neurria</string>
+
+    <string name="logged">TPyNra sartu zara!</string>
+    <string name="not_logged">Email edo pasahitza okerrak.</string>
+    <string name="signed">TPyNra eregistratu eta sartu zara!</string>
+    <string name="not_signed">Email aukeratuta dago.</string>
+    <string name="input_empty">Hutsuneak bete behar duzu.</string>
+    <string name="pass_match">Pasahitzak desberdinak dira.</string>
+
+    <string name="logout_section">Deskonektatu</string>
+    <string name="say_something">Edo zer esan!</string>
+    <string name="no_vr">Ahotsaren ezagutza ez dago.</string>
+    <string name="pending_tasks">Gaurko lanak: </string>
+</resources>

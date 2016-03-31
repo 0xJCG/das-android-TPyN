@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">TPyN</string>
+
+    <string name="notes_section">Notes</string>
+    <string name="note_section">Note details</string>
+    <string name="tasks_section">Tasks</string>
+    <string name="task_section">Task details</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="new_note">New note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="delete_note">Delete note</string>
+    <string name="new_task">New task</string>
+    <string name="edit_task">Edit task</string>
+    <string name="delete_task">Delete task</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="date">Date</string>
+    <string name="where">Where</string>
+    <string name="add">Add</string>
+    <string name="location">Location</string>
+    <string name="get_location">Get location</string>
+    <string name="photo">Photo</string>
+    <string name="take_photo">Take photo</string>
+    <string name="pick_date">Pick a date</string>
+
+    <!-- TOASTS, ENTRIES & NOTIFICATIONS -->
+    <string name="need_pick_date">Picking a date is needed.</string>
+    <string name="note_added">Note successfully added.</string>
+    <string name="note_updated">Note successfully updated.</string>
+    <string name="note_deleted">Note successfully delete.</string>
+    <string name="task_added">Task successfully added.</string>
+    <string name="task_updated">Task successfully updated.</string>
+    <string name="task_deleted">Task successfully delete.</string>
+    <string name="fill_fields">It is necessary to fill all the fields.</string>
+    <string name="discard_note">Discard the note</string>
+    <string name="discard_note_text">Do you want to discard the note?</string>
+    <string name="discard_task">Discard the task</string>
+    <string name="discard_task_text">Do you want to discard the task?</string>
+    <string name="new_notification">New notification</string>
+    <string name="notification_title">Pending tasks</string>
+    <string name="notification_content">There are pending tasks for today</string>
+    <string name="position_stored">Position stored.</string>
+    <string name="position_not_stored">There is not GPS signal.</string>
+    <string name="date_stored">Date stored.</string>
+
+<!-- New app version -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Enter your password again</string>
+    <string name="title_activity_new_note">New note</string>
+    <string name="title_activity_new_task">New task</string>
+    <string name="appwidget_text">LOADING</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="title_activity_signin">Sign in</string>
+    <string name="title_activity_singin">Sign in</string> <!-- my fault... -->
+    <string name="text_size">Loading widget text</string>
+    <string name="text_color">Widget text color</string>
+    <string name="widget_size">TPyN title color</string>
+    <string name="widget_back_color">TPyN title sizer</string>
+
+    <string name="logged">You are correctly logged in TPyN!</string>
+    <string name="not_logged">User or password incorrect.</string>
+    <string name="signed">You are correctly signed in and logged in TPyN!</string>
+    <string name="not_signed">The user you chose is already taken.</string>
+    <string name="input_empty">There can\'t be any blank input.</string>
+    <string name="pass_match">Passwords don\'t match.</string>
+
+    <string name="logout_section">Log out</string>
+    <string name="say_something">Say something!</string>
+    <string name="no_vr">Voice recognizer not present.</string>
+    <string name="pending_tasks">Pending tasks for today: </string>
+</resources>

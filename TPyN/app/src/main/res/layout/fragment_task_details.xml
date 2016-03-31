@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewNewTask"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:id="@+id/fragment_task_details" android:layout_height="match_parent" tools:context="com.das.jcastro.tpyn.TaskDetailsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:id="@+id/taskTitleDetails"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="19dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tTitleDetails"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/taskTitleDetails"
+            android:layout_alignLeft="@+id/taskTitleDetails"
+            android:layout_alignStart="@+id/taskTitleDetails" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content"
+            android:id="@+id/textView3"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/tTitleDetails"
+            android:layout_alignLeft="@+id/tTitleDetails"
+            android:layout_alignStart="@+id/tTitleDetails" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tContentDetails"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:id="@+id/textView5"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/tContentDetails"
+            android:layout_alignLeft="@+id/tContentDetails"
+            android:layout_alignStart="@+id/tContentDetails" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tDateDetails"
+            android:layout_below="@+id/textView5"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_marginTop="29dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/where"
+            android:id="@+id/textView7"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/tDateDetails"
+            android:layout_alignLeft="@+id/tDateDetails"
+            android:layout_alignStart="@+id/tDateDetails" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tWhereDetails"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/textView7"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7" />
+    </RelativeLayout>
+
+</ScrollView>

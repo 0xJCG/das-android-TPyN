@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view_widget_configuration"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/text_size" />
+
+        <EditText android:id="@+id/widget_text_size" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:inputType="text" android:layout_marginBottom="29dp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/text_color" />
+
+        <EditText android:id="@+id/widget_text_color" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:inputType="text" android:layout_marginBottom="29dp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/widget_size" />
+
+        <EditText android:id="@+id/wtitle_color" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:inputType="text" android:layout_marginBottom="29dp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/widget_back_color" />
+
+        <EditText android:id="@+id/widget_background_color" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:inputType="text" android:layout_marginBottom="29dp" />
+
+        <Button android:id="@+id/add_button" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/add_widget"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

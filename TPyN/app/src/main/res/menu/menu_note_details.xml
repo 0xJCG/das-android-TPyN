@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".NoteDetailsFragment">
+    <item android:id="@+id/new_note" android:title="@string/new_note"
+        android:icon="@android:drawable/ic_menu_add" app:showAsAction="ifRoom" />
+    <item android:id="@+id/edit_note" android:title="@string/edit_note"
+        android:icon="@android:drawable/ic_menu_edit" app:showAsAction="ifRoom" />
+    <item android:id="@+id/delete_note" android:title="@string/delete_note"
+        android:icon="@android:drawable/ic_menu_delete" app:showAsAction="ifRoom" />
+</menu>
